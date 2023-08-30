@@ -1,5 +1,4 @@
 #!/bin/bash
-cd 0x00-shell_basics
-touch README.md
+cd 0x00-shell_basics touch README.md 
 echo 'My second readme' > README.md
 
