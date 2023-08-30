@@ -1,2 +1,6 @@
 #!/bin/bash
-html_files=$(find . -name "*.html")
+for html_file in $html_files; do
+  if [ ! -f "$parent_dir/$html_file" ] || [ "$html_file" -nt "$parent_dir/$html_file" ]; then
+    cp "$html_file" "$parent_dir"
+  fi
+done
