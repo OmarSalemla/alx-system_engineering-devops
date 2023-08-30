@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*.html" -exec cp -v {} "$parent_dir" 2>/dev/null \;
+find . -name "*.html" -exec cp -v {} "$parent_dir" 2>&1 | grep -v "No such file or directory"
