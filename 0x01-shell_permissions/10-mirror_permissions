@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod $hello_mode $olleh_to_change_mode
+chmod $olleh_mode hello
