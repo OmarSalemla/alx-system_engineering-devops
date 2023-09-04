@@ -1,2 +1,2 @@
 #!/bin/bash
-cat unsorted_list_of_words.txt | sort | uniq | lpr
+sort -u unique_words
