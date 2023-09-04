@@ -1,2 +1,2 @@
 #!/bin/bash
-unique_words=`sort -u <<< "$unique_words"`
+sort list | uniq
